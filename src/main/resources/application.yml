@@ -54,4 +54,10 @@ logging:
   file: boot_example.log
   org.hibernate: INFO
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus
+
  
