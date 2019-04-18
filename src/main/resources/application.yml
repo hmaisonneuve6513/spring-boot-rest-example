@@ -26,7 +26,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: prometheus
+        include: /prometheus
   security:
     enabled: false # management port is internal only. no need to secure it.
 
