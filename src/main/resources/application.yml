@@ -20,8 +20,7 @@ security:
 #management endpoints on a separate port
 management:
   port: 8091
-  management:
-    endpoint:
+  endpoint:
       prometheus:
         enabled: true
   security:
