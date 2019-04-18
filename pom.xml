@@ -34,6 +34,12 @@
             <version>1.1.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-spring-legacy</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
         <!-- web development, including Tomcat and spring-webmvc -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
