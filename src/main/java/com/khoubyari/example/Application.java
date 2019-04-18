@@ -27,9 +27,6 @@ public class Application extends SpringBootServletInitializer {
     private static final Class<Application> applicationClass = Application.class;
     private static final Logger log = LoggerFactory.getLogger(applicationClass);
 
-    @Autowired
-    private MeterRegistry registry;
-
     public static void main(String[] args) {
 		SpringApplication.run(applicationClass, args);
 	}
