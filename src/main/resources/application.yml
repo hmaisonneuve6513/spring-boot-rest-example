@@ -20,6 +20,10 @@ security:
 #management endpoints on a separate port
 management:
   port: 8091
+  management:
+    endpoint:
+      prometheus:
+        enabled: true
   security:
     enabled: false # management port is internal only. no need to secure it.
 
